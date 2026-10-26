@@ -9,7 +9,7 @@ if (typeof email !== "string") {
 return false;
 }
 
-return /^[^\s@]+@[^\s@]+.[^\s@]+$/.test(email.trim());
+return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
 };
 
 // Checks whether a date follows the YYYY-MM-DD format
